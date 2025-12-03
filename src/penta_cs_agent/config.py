@@ -27,7 +27,7 @@ class AgentConfig(BaseModel):
         description="OpenAI API key"
     )
     anthropic_model: str = Field(
-        default=os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20241022"),
+        default=os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20240620"),
         description="Anthropic model to use"
     )
     openai_model: str = Field(

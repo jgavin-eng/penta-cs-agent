@@ -203,7 +203,7 @@ Configuration is managed through the `AgentConfig` class and environment variabl
 | `LLM_PROVIDER` | LLM provider (anthropic or openai) | anthropic |
 | `ANTHROPIC_API_KEY` | Anthropic API key | - |
 | `OPENAI_API_KEY` | OpenAI API key | - |
-| `ANTHROPIC_MODEL` | Anthropic model to use | claude-3-5-sonnet-20241022 |
+| `ANTHROPIC_MODEL` | Anthropic model to use | claude-3-5-sonnet-20240620 |
 | `OPENAI_MODEL` | OpenAI model to use | gpt-4-turbo-preview |
 | `KNOWLEDGE_BASE_PATH` | Path to knowledge base | ./data/knowledge_base |
 | `FEEDBACK_LOG_PATH` | Path to feedback log | ./data/feedback_log.json |
